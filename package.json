@@ -1,0 +1,21 @@
+{
+  "name": "marchingcubes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gl-matrix": "^3.0.0",
+    "nifti-reader-js": "^0.5.4"
+  },
+  "devDependencies": {
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4"
+  }
+}
